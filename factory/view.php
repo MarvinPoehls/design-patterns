@@ -28,6 +28,8 @@
             <div class="mt-4">
                 <?= isset($toy) ? $toy->display() : '';  ?>
             </div>
+            <?php $pattern = 'factory' ?>
+            <?php include __DIR__.'/../info/index.php' ?>
         </div>
     </body>
 </html>

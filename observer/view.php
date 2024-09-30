@@ -28,5 +28,7 @@
                 <button type="submit" class="btn btn-primary mt-2">Senden</button>
             </form>
         </div>
+        <?php $pattern = 'observer' ?>
+        <?php include __DIR__.'/../info/index.php' ?>
     </body>
 </html>

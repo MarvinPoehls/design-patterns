@@ -1,0 +1,11 @@
+<b>Wozu?</b>
+
+Um komplexe Funktionen einer oder mehrerer Klassen abstrahiert.
+
+<b>Wann?</b>
+
+Wenn eine komplexe Klasse oder mehrere zusammenhängende komplexe Klassen hinter einfachen Funktionen versteckt werden sollen um z.B. den Umgang zu erleichtern.
+
+<b>Wie?</b>
+
+Eine Fassaden-Klasse erstellen, mit einem Namen der den komplexen Prozess zusammenfasst. Die Fassade hält oder erstellt Objekte der komplexen Klassen und konfiguriert sie und nutzt deren Funktionen. Die Fassade stellt simple Funktionen zur Verfügung, die im Hintergrund komplexe Aufgaben erledigen.

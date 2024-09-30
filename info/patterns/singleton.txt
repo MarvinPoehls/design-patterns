@@ -1,0 +1,11 @@
+<b>Wozu?</b>
+
+Das Singleton Pattern erlaubt nur eine Instanz eines Objekts
+
+<b>Wann?</b>
+
+Wenn ein globaler Zugriffspunkt auf eine Instanz einer Klasse notwendig sind
+
+<b>Wie?</b>
+
+Die Singleton-Klasse besitzt eine private Instanzvariable, die das einzige Objekt der Klasse hält, sowie eine statische getInstance()-Methode. Diese Methode gibt die bestehende Instanz zurück oder erstellt eine neue, falls noch keine existiert, und speichert sie.

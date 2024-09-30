@@ -26,6 +26,8 @@
             <input type="text" name="password" class="form-control mb-2" placeholder="Passwort">
             <button type="submit" class="btn btn-primary">Senden</button>
         </form>
+        <?php $pattern = 'proxy' ?>
+        <?php include __DIR__.'/../info/index.php' ?>
     </div>
 </body>
 </html>

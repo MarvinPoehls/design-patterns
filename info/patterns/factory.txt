@@ -1,0 +1,11 @@
+<b>Wozu?</b>
+
+Das Factory Design Pattern trennt die Objekterstellung vom Rest des Codes.
+
+<b>Wann?</b>
+
+Wenn das Erstellen eines Objekts sehr komplex ist oder es Situationsabhängig ist, welche Art von Objekt benötigt wird.
+
+<b>Wie?</b>
+
+Eine Funktion oder Klasse erstellen, welche darauf spezialisiert ist Objekte zu erstellen.

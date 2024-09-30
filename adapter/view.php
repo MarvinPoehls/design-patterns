@@ -23,6 +23,8 @@
                 <p><?= $caller->call($oldMessengerAdapter, $message, $name); ?></p>
             </div>
         <?php } ?>
+        <?php $pattern = 'adapter' ?>
+        <?php include __DIR__.'/../info/index.php'?>
     </div>
 </body>
 </html>

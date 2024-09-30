@@ -21,6 +21,8 @@
                     </div>
                     <input type="text" name="items" class="form-control">
                     <button type="submit" class="btn btn-primary mt-2">Senden</button>
+                    <?php $pattern = 'iterator' ?>
+                    <?php include __DIR__.'/../info/index.php' ?>
                 </form>
             </div>
         </div>

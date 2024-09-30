@@ -1,0 +1,11 @@
+<b>Wozu?</b>
+
+Eine Proxy Klasse dient als Stellvertreter für ein anderes Objekt und bietet eine kontrollierte Möglichkeit auf das Objekt zuzugreifen.
+
+<b>Wann?</b>
+
+Wenn das Erstellen des realen Objekts Kostenintensiv ist, Sicherheitsprüfungen durchgeführt werden müssen oder um Ressourcen zu sparen.
+
+<b>Wie?</b>
+
+Ein Proxy führt bei der Ausführung einer Funktion zunächst Validierungen oder zusätzliche Logik durch und leitet den Aufruf anschließend an das reale Objekt weiter.

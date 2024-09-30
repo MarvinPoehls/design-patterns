@@ -1,0 +1,21 @@
+<b>Wozu?</b>
+
+Um Objekte iterierbar zu machen.
+
+<b>Wann?</b>
+
+Wenn eine Klasse eine Listenartige Stuktur als wichtige Komponente hat und es einen Vorteil bringt über diese auserhalb der Klasse zu iterieren.
+
+<b>Wie?</b>
+
+Eine Klasse das Iterator Interface implementieren lassen. Die Funktionen current, next, key, valid und rewind definieren.
+
+Current: Returnt das aktuelle Item
+
+Next: Geht zum nächsten Item
+
+Key: Returnt den Key des aktuellen Items
+
+Valid: Returnt ob das Aktuelle Item Valid ist
+
+Rewind: Setzt alles zurück

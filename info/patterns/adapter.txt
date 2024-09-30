@@ -1,0 +1,11 @@
+<b>Wozu?</b>
+
+Ein Adapter ist eine Klasse, die eine Anfrage so umwandelt, dass der Empfänger sie versteht.
+
+<b>Wann?</b>
+
+Wenn 2 Klassen sich nicht verständigen können z.B. 2 Klassen unterschiedliche inkompartible Interfaces implementieren oder ein anderes Format zum austaschen von Daten nutzen.
+
+<b>Wie?</b>
+
+Man erstellt eine Wrapper Klasse, welche eine Instanz der inkorpartiblen Klasse hält. Der Konstruktor nimmt ein Objekt der inkompartiblen Klasse an. Dann implementiert man gewünschte Funktionen im Wrapper und ruft dann in den Methoden, die Funktionen der inkompartiblen Klasse auf.

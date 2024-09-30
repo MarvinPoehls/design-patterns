@@ -1,0 +1,11 @@
+<b>Wozu?</b>
+
+Um eine Ein-zu-Viele-Abhängigkeit zwischen Objekten zu schaffen, sodass alle abhängigen Objekte automatisch benachrichtigt werden, wenn sich der Zustand eines Subjekts ändert.
+
+<b>Wann?</b>
+
+Wenn eine Aktion für alle Subjekte ausgeführt werden muss, sobald ein bestimmtes Event auftritt.
+
+<b>Wie?</b>
+
+Erstelle ein Subject und ein Observer Interface. Das Subject Interface definiert eine notify Methode, welche dann den Observer über eine im Interface vordefinierte update Methode informiert, dass ein Event eingetroffen ist.

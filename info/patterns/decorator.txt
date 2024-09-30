@@ -1,0 +1,11 @@
+<b>Wozu?</b>
+
+Um einem Objekt zur Laufzeit zusätzliche Funktionalitäten zu geben, ohne die Stuktur zu ändern.
+
+<b>Wann?</b>
+
+Wenn in einem Objekt viele variabel kombinierbare Eigenschaften vereint werden müssen.
+
+<b>Wie?</b>
+
+Man braucht ein Interface, welches gemeinsame Schnittstellen definiert. Eine Basis-Klasse, welche das Interface implementiert. Einen abstrakten Basis-Decorator, welcher ein Objekt, dass das Interface implementiert über den Konstruktor annimmt und in einer Variable speichert. Der Basis-Decorator implementiert auch das Interface und returnt variable->funktion() für jede vom Interface geforderte Methode. Konkrete Decorator Klassen erweitert die Basis-Decorator Klasse und modifizieren Werte.

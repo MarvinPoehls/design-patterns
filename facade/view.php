@@ -19,6 +19,8 @@
             <input type="text" class="form-control" name="title" placeholder="Titel" value="<?= $title ?? '' ?>">
             <button class="btn btn-primary mt-2">Senden</button>
         </form>
+        <?php $pattern = 'facade' ?>
+        <?php include __DIR__.'/../info/index.php' ?>
     </div>
 </body>
 </html>

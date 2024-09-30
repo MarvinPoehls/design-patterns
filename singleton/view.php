@@ -20,6 +20,8 @@
             <div class="bg-white rounded p-4 my-5 shadow">
                 <h2>Logger 1 === Logger 2: <span class="ms-3 <?= ($logger1 === $logger2) ? 'text-success' : 'text-danger' ?>"><?= ($logger1 === $logger2) ? 'True' : 'False' ?></span></h2>
             </div>
+            <?php $pattern = 'singleton'; ?>
+            <?php include __DIR__.'/../info/index.php' ?>
         </div>
     </body>
 </html>

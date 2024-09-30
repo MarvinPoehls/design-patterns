@@ -48,6 +48,8 @@
                 <h4>Zutaten:</h4>
                 <p><?= $coffee->getIngredients(); ?></p>
             <?php } ?>
+            <?php $pattern = 'decorator' ?>
+            <?php include __DIR__.'/../info/index.php' ?>
         </div>
     </body>
 </html>
